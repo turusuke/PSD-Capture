@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180px" height="177px" viewBox="0 0 180 177" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <ellipse id="path-1" cx="84.2264134" cy="82.7596251" rx="83.7028232" ry="82.1084837"></ellipse>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-6" y="-6" width="179.405646" height="176.216967">
+            <rect x="-5.4764098" y="-5.34885858" width="179.405646" height="176.216967" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="167.405646" height="164.216967" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-dasharray="1,4">
+        <g id="Artboard" transform="translate(-108.000000, -161.000000)">
+            <g id="circle" transform="translate(114.000000, 167.000000)">
+                <g id="Oval">
+                    <use stroke-opacity="0.25" stroke="#ECECEC" mask="url(#mask-2)" stroke-width="12" xlink:href="#path-1"></use>
+                    <use stroke-opacity="0.51" stroke="#FFFFFF" mask="url(#mask-3)" stroke-width="6" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

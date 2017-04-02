@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="19px" viewBox="0 0 20 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.479999989">
+        <g id="Artboard" transform="translate(-187.000000, -199.000000)" fill="#FFFFFF">
+            <g id="arrows" transform="translate(187.000000, 199.000000)">
+                <polyline id="Triangle" points="10.4292436 8.50962864 19.9952805 0.537931196 0.863206676 0.537931196"></polyline>
+                <polyline id="Triangle" points="10.4292436 18.0756656 19.9952805 10.1039681 0.863206676 10.1039681"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

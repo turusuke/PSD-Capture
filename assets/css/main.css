@@ -1,0 +1,49 @@
+@keyframes circleAnim {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-app-region: drag;
+  -webkit-user-select: none; }
+
+.app {
+  box-sizing: border-box;
+  width: 400px;
+  height: 400px;
+  background-image: url(../images/lines.svg), linear-gradient(-180deg, #7DDCE9 0%, #7A689E 100%);
+  background-position: center 110px, center;
+  background-repeat: no-repeat, repeat-y;
+  padding-top: 80px; }
+
+.heading {
+  margin: 0;
+  text-align: center; }
+
+.content {
+  margin: 64px auto 0;
+  text-align: center;
+  transition: 10s all;
+  position: relative; }
+
+.bg_circle {
+  height: 177px;
+  width: 180px;
+  background-image: url(../images/circle.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -90px;
+  animation: circleAnim 60s linear infinite; }
+  .bg_circle.is-over {
+    transform: scale(1.4); }
+
+.arrows {
+  text-align: center;
+  padding-top: 32px; }
+
+/*# sourceMappingURL=main.css.map */
