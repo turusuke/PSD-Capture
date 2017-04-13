@@ -1,7 +1,6 @@
 const { app, BrowserWindow } = require('electron');
 const path = require('path');
 const url = require('url');
-const PSD = require('psd');
 
 let win;
 
@@ -21,7 +20,6 @@ function createWindow() {
     slashes: true
   }));
 
-  win.webContents.openDevTools();
   win.on('closed', () => win = null);
 }
 

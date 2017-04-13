@@ -3,7 +3,7 @@ const PSD = require('psd');
 const fs = require('fs');
 const path = require('path');
 
-const savePsd = (file, dirpath) => {
+const savePng = (file, dirpath) => {
   PSD.open(file.path).then((psd) => {
     const savePath = `${dirpath}/${path.basename(file.name, path.extname(file.name))}.png`;
     psd.image.saveAsPng(savePath);
@@ -16,7 +16,7 @@ const psdToJpeg = (files) => {
     properties: ['openDirectory','createDirectory']
   }, (dirpath) => {
     for (file of files) {
-      savePsd(file, dirpath);
+      savePng(file, dirpath);
     }
   });
 
